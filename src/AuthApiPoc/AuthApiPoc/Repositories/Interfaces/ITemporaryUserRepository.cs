@@ -4,6 +4,8 @@ namespace AuthApiPoc.Repositories.Interfaces
 {
     public interface ITemporaryUserRepository
     {
-        bool InsertTemporaryUser(ITemporaryUserRepository user);
+        Task<bool> InsertTemporaryUser(TemporaryUser user);
+        TemporaryUser GetTemporaryUserById(Guid id);
+        TemporaryUser GetTemporaryUserByEmail(string email);
     }
 }

@@ -15,6 +15,9 @@ namespace AuthApiPoc.DTOs.Request
         public string LastName { get; set; }
 
         [Required]
+        public string Password { get; set; }
+
+        [Required]
         public string Email { get; set; }
 
         [Required]
@@ -26,6 +29,8 @@ namespace AuthApiPoc.DTOs.Request
         public List<CreatePhoneRequest> Phones { get; set; }
 
         public List<CreateAddressRequest> Addresses { get; set; }
+
+        public string Country { get; set; }
 
         public string Gender { get; set; }
     }

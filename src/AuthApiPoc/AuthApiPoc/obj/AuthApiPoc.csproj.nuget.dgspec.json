@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\Study\\AuthApi\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {}
+    "C:\\dev\\Study\\AuthApi\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {}
   },
   "projects": {
-    "C:\\dev\\Study\\AuthApi\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {
+    "C:\\dev\\Study\\AuthApi\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Study\\AuthApi\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
+        "projectUniqueName": "C:\\dev\\Study\\AuthApi\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
         "projectName": "AuthApiPoc",
-        "projectPath": "C:\\dev\\Study\\AuthApi\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
+        "projectPath": "C:\\dev\\Study\\AuthApi\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
         "packagesPath": "C:\\Users\\pedro.ramos.STONE\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Study\\AuthApi\\AuthApiPoc\\AuthApiPoc\\obj\\",
+        "outputPath": "C:\\dev\\Study\\AuthApi\\src\\AuthApiPoc\\AuthApiPoc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -5,6 +5,8 @@ namespace AuthApiPoc.Services.Interfaces
 {
     public interface IRegistrationService
     {
-        ErrorCode? ProcessRegistration(CreateRegistrationRequest request);
+        Task<ErrorCode?> ProcessRegistration(CreateRegistrationRequest request);
+
+        Task<ErrorCode?> CompleteRegistration(CompleteRegistrationRequest request);
     }
 }

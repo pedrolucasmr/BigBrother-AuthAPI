@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EFW8/xa9B6sr0i3pH7zdgCrBoFUUcEib/6Ar1+Yh5HtmBD2VZGVQ8EkVOVqWhZUNN18vIEhJlcuQKYZAH7QZ+Q==",
+  "dgSpecHash": "mbeKxgpYa6FWmx3qZgFc57HDwQCR6h48QhQUfPKhLXMg1ia42eH2Ck7Jl4bD5Mh1SriX9vwcQ9YmePlh8MkxJA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\Study\\AuthApi\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
+  "projectFilePath": "C:\\dev\\Study\\AuthApi\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro.ramos.STONE\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\pedro.ramos.STONE\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
