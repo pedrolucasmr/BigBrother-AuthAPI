@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {}
+    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Business\\AuthApiPoc.Business.csproj": {}
   },
   "projects": {
-    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {
+    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Business\\AuthApiPoc.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
-        "projectName": "AuthApiPoc",
-        "projectPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
+        "projectUniqueName": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Business\\AuthApiPoc.Business.csproj",
+        "projectName": "AuthApiPoc.Business",
+        "projectPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Business\\AuthApiPoc.Business.csproj",
         "packagesPath": "C:\\Users\\Pedro Lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\obj\\",
+        "outputPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pedro Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,16 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[11.0.1, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -61,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

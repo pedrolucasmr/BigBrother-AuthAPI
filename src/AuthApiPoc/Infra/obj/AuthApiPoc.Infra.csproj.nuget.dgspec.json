@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {}
+    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Infra\\AuthApiPoc.Infra.csproj": {}
   },
   "projects": {
-    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {
+    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Infra\\AuthApiPoc.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
-        "projectName": "AuthApiPoc",
-        "projectPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
+        "projectUniqueName": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Infra\\AuthApiPoc.Infra.csproj",
+        "projectName": "AuthApiPoc.Infra",
+        "projectPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Infra\\AuthApiPoc.Infra.csproj",
         "packagesPath": "C:\\Users\\Pedro Lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\obj\\",
+        "outputPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pedro Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,16 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[11.0.1, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -61,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

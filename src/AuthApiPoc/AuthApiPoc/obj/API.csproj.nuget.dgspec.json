@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {}
+    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\API.csproj": {}
   },
   "projects": {
-    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj": {
+    "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
-        "projectName": "AuthApiPoc",
-        "projectPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\AuthApiPoc.csproj",
+        "projectUniqueName": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\API.csproj",
+        "projectName": "API",
+        "projectPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\API.csproj",
         "packagesPath": "C:\\Users\\Pedro Lucas\\.nuget\\packages\\",
         "outputPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc\\obj\\",
         "projectStyle": "PackageReference",
