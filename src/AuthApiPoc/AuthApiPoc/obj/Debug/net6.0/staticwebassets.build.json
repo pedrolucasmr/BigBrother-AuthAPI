@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "l7sMBcI3snH29Dq/vzX/XmdiE5cjGG3Q/S9luyGkr6k=",
+  "Source": "AuthApiPoc.API",
+  "BasePath": "_content/AuthApiPoc.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

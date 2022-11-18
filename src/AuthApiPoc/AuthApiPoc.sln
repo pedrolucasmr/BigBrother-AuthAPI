@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApiPoc", "AuthApiPoc\AuthApiPoc.csproj", "{336EF450-D513-465D-B0D9-61388930B798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthApiPoc.API", "AuthApiPoc\AuthApiPoc.API.csproj", "{336EF450-D513-465D-B0D9-61388930B798}"
+	ProjectSection(ProjectDependencies) = postProject
+		{808A6EDE-36DC-47B6-8EA4-7F579CE6CF3B} = {808A6EDE-36DC-47B6-8EA4-7F579CE6CF3B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApiPoc.Infra", "Infra\AuthApiPoc.Infra.csproj", "{F69EAC2A-9EF6-4F12-82E2-8998FDFC76EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApiPoc.Business", "Business\AuthApiPoc.Business.csproj", "{808A6EDE-36DC-47B6-8EA4-7F579CE6CF3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApiPoc.Models", "AuthApiPoc.Models\AuthApiPoc.Models.csproj", "{814D3E5B-C2FC-4DCC-B9EA-4FDE0E79D747}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,18 @@ Global
 		{336EF450-D513-465D-B0D9-61388930B798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{336EF450-D513-465D-B0D9-61388930B798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{336EF450-D513-465D-B0D9-61388930B798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69EAC2A-9EF6-4F12-82E2-8998FDFC76EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69EAC2A-9EF6-4F12-82E2-8998FDFC76EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69EAC2A-9EF6-4F12-82E2-8998FDFC76EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69EAC2A-9EF6-4F12-82E2-8998FDFC76EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808A6EDE-36DC-47B6-8EA4-7F579CE6CF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808A6EDE-36DC-47B6-8EA4-7F579CE6CF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808A6EDE-36DC-47B6-8EA4-7F579CE6CF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808A6EDE-36DC-47B6-8EA4-7F579CE6CF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814D3E5B-C2FC-4DCC-B9EA-4FDE0E79D747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814D3E5B-C2FC-4DCC-B9EA-4FDE0E79D747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814D3E5B-C2FC-4DCC-B9EA-4FDE0E79D747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814D3E5B-C2FC-4DCC-B9EA-4FDE0E79D747}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AuthApiPoc.Models\AuthApiPoc.Models.csproj" />
+  </ItemGroup>
+
 </Project>

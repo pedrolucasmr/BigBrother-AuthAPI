@@ -1,11 +1,9 @@
-﻿using AuthApiPoc.Business.DTOs.Request;
-using AuthApiPoc.Business.Mappers;
-using AuthApiPoc.Business.Models;
-using AuthApiPoc.Business.Models.Enums;
+﻿using AuthApiPoc.Business.Mappers;
 using AuthApiPoc.Business.Services.Interfaces;
-using AuthApiPoc.Models;
-using AuthApiPoc.Repositories.Interfaces;
-using Business.Models;
+using AuthApiPoc.Infra.Repositories.Interfaces;
+using AuthApiPoc.Models.DTOs.Request;
+using AuthApiPoc.Models.Models;
+using AuthApiPoc.Models.Models.Enums;
 using System.Security.Cryptography;
 
 namespace AuthApiPoc.Business.Services
@@ -80,7 +78,7 @@ namespace AuthApiPoc.Business.Services
 
             _otpRepository.InsertAsync(otp);
 
-            return otp.Id;
+            return otp.Code;
         }
     }
 }

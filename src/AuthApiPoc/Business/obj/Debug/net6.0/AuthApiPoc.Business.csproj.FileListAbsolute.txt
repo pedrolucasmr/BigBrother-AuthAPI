@@ -1,0 +1,5 @@
+D:\dev\BigBrother-AuthAPI\src\AuthApiPoc\Business\obj\Debug\net6.0\AuthApiPoc.Business.csproj.AssemblyReference.cache
+D:\dev\BigBrother-AuthAPI\src\AuthApiPoc\Business\obj\Debug\net6.0\AuthApiPoc.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\BigBrother-AuthAPI\src\AuthApiPoc\Business\obj\Debug\net6.0\AuthApiPoc.Business.AssemblyInfoInputs.cache
+D:\dev\BigBrother-AuthAPI\src\AuthApiPoc\Business\obj\Debug\net6.0\AuthApiPoc.Business.AssemblyInfo.cs
+D:\dev\BigBrother-AuthAPI\src\AuthApiPoc\Business\obj\Debug\net6.0\AuthApiPoc.Business.csproj.CoreCompileInputs.cache

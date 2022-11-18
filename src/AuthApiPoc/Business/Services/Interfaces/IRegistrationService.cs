@@ -1,5 +1,5 @@
-﻿using AuthApiPoc.Business.DTOs.Request;
-using AuthApiPoc.Business.Models.Enums;
+﻿using AuthApiPoc.Models.DTOs.Request;
+using AuthApiPoc.Models.Models.Enums;
 
 namespace AuthApiPoc.Business.Services.Interfaces
 {

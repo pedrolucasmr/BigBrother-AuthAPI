@@ -1,5 +1,5 @@
-﻿using AuthApiPoc.Business.DTOs.Request;
-using AuthApiPoc.Business.Models;
+﻿using AuthApiPoc.Business.Models;
+using AuthApiPoc.Models.DTOs.Request;
 using AutoMapper;
 
 namespace AuthApiPoc.Business.Mappers

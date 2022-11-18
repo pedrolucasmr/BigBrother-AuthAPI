@@ -1,4 +1,4 @@
-﻿using AuthApiPoc.Models;
+﻿using AuthApiPoc.Models.Models;
 
 namespace AuthApiPoc.Infra.Repositories.Interfaces
 {

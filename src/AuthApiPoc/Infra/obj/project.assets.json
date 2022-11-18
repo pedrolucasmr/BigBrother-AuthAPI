@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "AuthApiPoc.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AuthApiPoc.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthApiPoc.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AuthApiPoc.Models/1.0.0": {
+      "type": "project",
+      "path": "../AuthApiPoc.Models/AuthApiPoc.Models.csproj",
+      "msbuildProject": "../AuthApiPoc.Models/AuthApiPoc.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "AuthApiPoc.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Pedro Lucas\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc.Models\\AuthApiPoc.Models.csproj": {
+              "projectPath": "D:\\dev\\BigBrother-AuthAPI\\src\\AuthApiPoc\\AuthApiPoc.Models\\AuthApiPoc.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
